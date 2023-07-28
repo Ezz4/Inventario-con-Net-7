@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "68IVKcLt1ng3SDQ64UhGbnf68WliNNqqdiASNbfE7XA=",
+  "Hash": "AKyhajvfTkczmCahCDnEcsV+jP0k8EDYjF1X0y1xZ3Q=",
   "Source": "SistemaInventarioV3",
   "BasePath": "_content/SistemaInventarioV3",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\js\\bodega.js",
+      "SourceId": "SistemaInventarioV3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV3",
+      "RelativePath": "js/bodega.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
     },
     {
       "Identity": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\js\\site.js",
