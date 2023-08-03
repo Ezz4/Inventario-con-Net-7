@@ -1,0 +1,98 @@
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace SistemaInventario.AccesoDatos.Migrations
+{
+    /// <inheritdoc />
+    public partial class AgragarMigracionProducto : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropPrimaryKey(
+                name: "PK_Marcas",
+                table: "Marcas");
+
+            migrationBuilder.RenameTable(
+                name: "Marcas",
+                newName: "Marca");
+
+            migrationBuilder.AddPrimaryKey(
+                name: "PK_Marca",
+                table: "Marca",
+                column: "Id");
+
+            migrationBuilder.CreateTable(
+                name: "Producto",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    NumeroSerie = table.Column<string>(type: "nvarchar(60)", maxLength: 60, nullable: false),
+                    Descripcion = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Costo = table.Column<double>(type: "float", nullable: false),
+                    ImagenURL = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Estado = table.Column<bool>(type: "bit", nullable: false),
+                    CategoriaId = table.Column<int>(type: "int", nullable: false),
+                    Precio = table.Column<int>(type: "int", nullable: false),
+                    MarcaId = table.Column<int>(type: "int", nullable: false),
+                    PadreId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Producto", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Producto_Categoria_CategoriaId",
+                        column: x => x.CategoriaId,
+                        principalTable: "Categoria",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_Producto_Marca_MarcaId",
+                        column: x => x.MarcaId,
+                        principalTable: "Marca",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_Producto_Producto_PadreId",
+                        column: x => x.PadreId,
+                        principalTable: "Producto",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Producto_CategoriaId",
+                table: "Producto",
+                column: "CategoriaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Producto_MarcaId",
+                table: "Producto",
+                column: "MarcaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Producto_PadreId",
+                table: "Producto",
+                column: "PadreId");
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "Producto");
+
+            migrationBuilder.DropPrimaryKey(
+                name: "PK_Marca",
+                table: "Marca");
+
+            migrationBuilder.RenameTable(
+                name: "Marca",
+                newName: "Marcas");
+
+            migrationBuilder.AddPrimaryKey(
+                name: "PK_Marcas",
+                table: "Marcas",
+                column: "Id");
+        }
+    }
+}

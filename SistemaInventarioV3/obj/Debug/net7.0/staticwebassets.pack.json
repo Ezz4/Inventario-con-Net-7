@@ -13,8 +13,44 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\images\\producto\\119c5426-9801-4409-bd74-192849a37d2a.PNG",
+      "PackagePath": "staticwebassets\\images\\producto\\119c5426-9801-4409-bd74-192849a37d2a.PNG"
+    },
+    {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\images\\producto\\6646757d-ed6e-4f14-9130-50495390b8e8.PNG",
+      "PackagePath": "staticwebassets\\images\\producto\\6646757d-ed6e-4f14-9130-50495390b8e8.PNG"
+    },
+    {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\images\\producto\\6bcd7ea1-ad5c-46de-adaa-e283ba0d2e82.PNG",
+      "PackagePath": "staticwebassets\\images\\producto\\6bcd7ea1-ad5c-46de-adaa-e283ba0d2e82.PNG"
+    },
+    {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\images\\producto\\b811d643-6fc8-4383-b7ce-65a4b85e5e8e.PNG",
+      "PackagePath": "staticwebassets\\images\\producto\\b811d643-6fc8-4383-b7ce-65a4b85e5e8e.PNG"
+    },
+    {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\images\\producto\\d05b3af8-9014-42f1-ac58-830104ad6c53.PNG",
+      "PackagePath": "staticwebassets\\images\\producto\\d05b3af8-9014-42f1-ac58-830104ad6c53.PNG"
+    },
+    {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\images\\producto\\d2eae366-0e6c-4735-ade1-049ff1819495.PNG",
+      "PackagePath": "staticwebassets\\images\\producto\\d2eae366-0e6c-4735-ade1-049ff1819495.PNG"
+    },
+    {
       "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\js\\bodega.js",
       "PackagePath": "staticwebassets\\js\\bodega.js"
+    },
+    {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\js\\categoria.js",
+      "PackagePath": "staticwebassets\\js\\categoria.js"
+    },
+    {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\js\\marca.js",
+      "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
     },
     {
       "Id": "C:\\Users\\zuryt\\source\\repos\\SistemaInventarioV3\\SistemaInventarioV3\\wwwroot\\js\\site.js",
